@@ -153,6 +153,7 @@ public class Robot extends TimedRobot {
       Drive.drive(GyroControl.getAngle()/Constants.maxPlatformAngle*0.8,0);
     }else{
       Drive.drive(RobotContainer.speed, RobotContainer.direction);
+      System.out.println(RobotContainer.direction);
     }
   }
 

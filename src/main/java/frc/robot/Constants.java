@@ -32,7 +32,6 @@ public final class Constants {
   public static final double autonomousDist = 300.0;//This is how far the robot will travel in INCHES
   public static final double autonomousSpeed = 0.25;//This is the speed at which the robot travels in autonomous
   public static final double maxPlatformAngle = 15.0;
-
   public static final double[][] operativeRange = {
     {1/4*Math.PI, 3/4*Math.PI},
     {5/4*Math.PI, 7/4*Math.PI}
