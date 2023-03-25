@@ -80,6 +80,9 @@ public class Robot extends TimedRobot {
       DriveSystem.drive(Constants.autonomousSpeed, 0);
     }
     DriveSystem.drive(0,0);
+    while(GyroControl.getAngle()!=0){
+      Drive.drive(GyroControl.getAngle()/Constants.maxPlatformAngle*0.8,0);
+    }
   }
 
   @Override
