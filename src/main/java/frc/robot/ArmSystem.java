@@ -39,7 +39,7 @@ public class ArmSystem {
         zRot.set(turnSpeed);
     };
     public void armDeflection(double rate) {
-        armDeflectionPos += rate;
+        armDeflectionPos -= rate;
         armDeflection.set(TalonFXControlMode.Position, armDeflectionPos);
     }
     public void extendArm(double extendSpeed){

@@ -33,8 +33,8 @@ public final class Constants {
   public static final double autonomousSpeed = 0.25;//This is the speed at which the robot travels in autonomous
   public static final double maxPlatformAngle = 15.0;
   public static final double[][] operativeRange = {
-    {1/4*Math.PI, 3/4*Math.PI},
-    {5/4*Math.PI, 7/4*Math.PI}
+    {-0.292, 0.344},
+    {0.946, -0.982}
   };//Operative rotation range in RADIANS
   //THESE NUMBERS WILL NEED TO BE CHANGED ONCE WE DETERMINE THE CORRECT OPERATIVE RANGE
 }
